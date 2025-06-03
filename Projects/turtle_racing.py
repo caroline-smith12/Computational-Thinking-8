@@ -39,6 +39,7 @@ t4 = create_sprite("baseball",x4,y4)
 # # Section 4 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # TODO - explain here which sprites are faster or slower
+# # x4 is fastest because the average of those numbers are highest, slowest is x1 because the average is lowest
 for i in range(30):
 	x1 += random.randint(6,10)
 	x2 += random.randint(8,10)
